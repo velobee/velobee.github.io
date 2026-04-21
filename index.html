@@ -231,8 +231,18 @@
 
     <section style="background: white; padding: 4rem 2rem; text-align: center;">
         <h2 style="color: #667eea; font-size: 2.5rem; margin-bottom: 2rem;">Ready to Transform Your App Idea?</h2>
-        <p style="font-size: 1.1rem; margin-bottom: 2rem; max-width: 700px; margin-left: auto; margin-right: auto;">Partner with VeloBee to bring your mobile app vision to life. Let's build something remarkable together.</p>
-        <a href="mailto:hello@velobee.com" class="cta-button">Contact Us Today</a>
+        
+        <form action="https://formspree.io/f/service@velobee.io" method="POST" style="max-width: 500px; margin: 0 auto; text-align: left;">
+            <div style="margin-bottom: 1rem;">
+                <label for="email" style="display: block; margin-bottom: 0.5rem;">Your Email:</label>
+                <input type="email" name="email" id="email" required style="width: 100%; padding: 0.8rem; border: 1px solid #ccc; border-radius: 4px;">
+            </div>
+            <div style="margin-bottom: 1.5rem;">
+                <label for="message" style="display: block; margin-bottom: 0.5rem;">Message:</label>
+                <textarea name="message" id="message" rows="4" required style="width: 100%; padding: 0.8rem; border: 1px solid #ccc; border-radius: 4px;"></textarea>
+            </div>
+            <button type="submit" class="cta-button" style="width: 100%; border: none; cursor: pointer;">Submit</button>
+        </form>
     </section>
 
     <footer id="contact">
